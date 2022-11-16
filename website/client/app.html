@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <title>IIT Closing Rank Predictor</title>
+</head>
+
+<body>
+    <div class="img"></div>
+    <h1>Welcome to IITs Closing Rank Prediction</h1>
+    
+    <div class="year">
+        <input type="text" id="uiYear"  name="Year" placeholder="Enter Counselling Year">
+    </div>
+  
+
+
+        <div>
+            <select name="" id="uiInstitute" class="Choose">
+                <option value="" disabled="disabled" selected="selected">Choose an Institute's Name</option>
+            </select>
+        </div>
+
+        <div>
+            <select name="" class="Choose" id="uiDepartment" >
+                <option value="" disabled="disabled" selected="selected">Choose a Department</option>
+                <option value="">Material science</option>
+         </select>
+        </div>
+
+        
+
+
+        <div>
+            <select name="" id="uiDegree" class = "Choose">
+                <option value="" disabled="disabled" selected="selected">Choose a Degree Name</option>
+            </select>
+        </div>
+
+        <div>
+            <select name="" id="uiCategory" class = "Choose">
+                <option value="" disabled="disabled" selected="selected">Choose a Category</option>
+            </select>
+        </div>
+
+        <div>
+            <select name="" id="uiPool" class = "Choose">
+                <option value="" disabled="disabled" selected="selected">Choose  aGender Pool Type</option>
+                <!-- <option value="">Female only</option> -->
+            </select>
+        </div>
+
+        <div>
+            <select name="" id="uiProgramDuration" class = "Choose">
+                <option value="" disabled="disabled" selected="selected">Choose Programme Duration</option>
+         </select>
+
+         
+
+        
+          
+    </div>
+    </div>
+        <button class="submit" onclick="onClickedEstimateRank()" type="button">Estimate Closing Rank</button>
+        <div id="uiEstimatedRank" class="result">	<h2></h2> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
